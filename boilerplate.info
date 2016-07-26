@@ -1,0 +1,30 @@
+; ----------------------------------------------------------------------------
+; Theme created by [company]
+; http://www.[company].com
+; ----------------------------------------------------------------------------
+
+; ----------------------------------------------------------------------------
+; Custom created theme for [website] website.
+; ----------------------------------------------------------------------------
+name = Boilerplate
+description = Custom theme boilerplate for Drupal 7.
+version = 1.0
+core = 7.x
+engine = phptemplate
+screenshot = images/screenshot.png
+
+; ----------------------------------------------------------------------------
+; Stylesheets.
+; ----------------------------------------------------------------------------
+; Theme stylesheets.
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/pages.css
+stylesheets[all][] = css/quickfix.css
+; Print stylesheets.
+stylesheets[print][] = css/print.css
+
+; ----------------------------------------------------------------------------
+; Scripts.
+; ----------------------------------------------------------------------------
+; Theme JS
+scripts[] = javascript/main.js
